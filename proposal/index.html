@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>A Proposal for Curtis Brown Ltd</title>
+
+    <!--
+        ASSET PATH CONFIGURATION
+        Update this path to point to your assets directory
+    -->
+    <script>
+        const ASSETS_PATH = "./assets";
+    </script>
+
+    <!--
+        TYPOGRAPHY SELECTION
+
+        Primary Pairing (Recommended):
+        - Libre Baskerville: A web-optimized Baskerville with excellent readability.
+          Its literary heritage aligns with publishing tradition while remaining
+          crisp on screens. Used for headlines and emphasis.
+        - Source Sans 3: A clean, humanist sans-serif designed for UI and long-form
+          reading. Professional without being cold. Used for body text.
+
+        Alternative Pairings:
+
+        Option B - More Traditional:
+        - Playfair Display + Lato
+          Playfair brings high contrast and editorial elegance.
+          Lato offers warmth and approachability.
+
+        Option C - Contemporary Editorial:
+        - Cormorant Garamond + Inter
+          Cormorant is refined and literary with French Renaissance roots.
+          Inter is modern, neutral, and highly legible.
+
+        To swap fonts, update the Google Fonts import below and the CSS custom properties.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--
+        SIDEBAR NAVIGATION
+        Persistent navigation with section links.
+        Active states managed via JavaScript.
+    -->
+    <nav class="sidebar" role="navigation" aria-label="Primary">
+        <div class="sidebar-header">
+            <span class="sidebar-label">Proposal</span>
+        </div>
+        <ul class="sidebar-nav">
+            <li><a href="#hero" data-section="hero">Introduction</a></li>
+            <li><a href="#the-moment" data-section="the-moment">The Moment</a></li>
+            <li><a href="#why-us" data-section="why-us">Why a Strategic Agency</a></li>
+            <li><a href="#who-we-are" data-section="who-we-are">Who We Are</a></li>
+            <li><a href="#approach" data-section="approach">Our Approach</a></li>
+            <li><a href="#deliverables" data-section="deliverables">What We Deliver</a></li>
+            <li><a href="#capabilities" data-section="capabilities">Adjacent Capabilities</a></li>
+            <li><a href="#security" data-section="security">Security and Trust</a></li>
+            <li><a href="#engagement" data-section="engagement">Engagement Models</a></li>
+            <li><a href="#next-steps" data-section="next-steps">Next Steps</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <span class="sidebar-contact">Prepared for Curtis Brown Ltd</span>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAVIGATION TOGGLE -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+    </button>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content" role="main">
+
+        <!-- SECTION 1: HERO -->
+        <section id="hero" class="section section-hero">
+            <div class="section-content">
+                <header class="hero-header animate-on-scroll">
+                    <p class="hero-kicker">A Proposal for Curtis Brown Ltd</p>
+                    <h1 class="hero-title">Stewardship for the Next Chapter</h1>
+                </header>
+                <div class="hero-body animate-on-scroll" data-delay="100">
+                    <p class="hero-lead">
+                        For nearly a century, Curtis Brown has represented authors whose words have shaped culture.
+                        A digital presence should honor that legacy while serving the expectations of readers,
+                        writers, and partners today.
+                    </p>
+                    <p>
+                        This proposal outlines a partnership grounded in respect for what you have built
+                        and clarity about what comes next. Not a redesign for its own sake, but a thoughtful
+                        translation of institutional authority into a modern, maintainable digital experience.
+                    </p>
+                </div>
+                <div class="hero-attribution animate-on-scroll" data-delay="200">
+                    <p>
+                        Prepared by<br>
+                        <strong>Edgar Zorrilla</strong> and <strong>Paul Denya</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: UNDERSTANDING THE MOMENT -->
+        <section id="the-moment" class="section">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Understanding the Moment</h2>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            The digital landscape has shifted. What once felt current now signals age.
+                            What once worked seamlessly now creates friction.
+                        </p>
+                    </div>
+                    <div class="content-block animate-on-scroll" data-delay="100">
+                        <h3>Expectations Have Evolved</h3>
+                        <p>
+                            Authors researching representation, editors seeking submissions guidelines,
+                            international partners evaluating collaboration, readers discovering new voices
+                            they have encountered through social media or press coverage. Each arrives with
+                            expectations shaped by the best digital experiences they encounter elsewhere.
+                        </p>
+                        <p>
+                            This does not mean chasing trends. It means meeting reasonable standards:
+                            clarity on mobile devices, fast load times, accessible navigation, and content
+                            that can be found when searched.
+                        </p>
+                    </div>
+                    <div class="content-block animate-on-scroll" data-delay="150">
+                        <h3>The Risk of Standing Still</h3>
+                        <p>
+                            An outdated digital presence does not merely look old. It creates operational
+                            friction: support inquiries that could be self-served, submission processes
+                            that create unnecessary back-and-forth, information that is difficult to maintain
+                            and therefore falls out of date.
+                        </p>
+                        <p>
+                            More subtly, it creates a gap between the quality of your representation and
+                            the quality of your presentation. For an institution built on editorial judgment,
+                            that gap matters.
+                        </p>
+                    </div>
+                    <div class="content-block animate-on-scroll" data-delay="200">
+                        <h3>The Opportunity</h3>
+                        <p>
+                            A considered redesign is not a disruption. It is an opportunity to clarify what
+                            Curtis Brown is today, to streamline how you communicate with the world, and to
+                            build infrastructure that serves the agency for years to come, not just the
+                            current moment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: WHY A STRATEGIC WEB AGENCY -->
+        <section id="why-us" class="section section-alternate">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Why a Strategic Web Agency</h2>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            Not every project requires scale. Some require depth, judgment,
+                            and the kind of attention that only comes from senior practitioners
+                            who remain involved from first conversation to final delivery.
+                        </p>
+                    </div>
+                    <div class="two-column animate-on-scroll" data-delay="100">
+                        <div class="column">
+                            <h3>What We Are</h3>
+                            <ul class="refined-list">
+                                <li>A two-person senior partnership</li>
+                                <li>Twenty-plus years of combined experience in design, strategy, and engineering</li>
+                                <li>Directly involved in every decision and deliverable</li>
+                                <li>Focused on clarity, trust, and long-term value</li>
+                                <li>Experienced with organizations where reputation and discretion matter</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>What We Are Not</h3>
+                            <ul class="refined-list refined-list-contrast">
+                                <li>Not a vendor managing offshore teams</li>
+                                <li>Not a platform selling subscriptions</li>
+                                <li>Not a startup testing ideas on your timeline</li>
+                                <li>Not an agency that will hand you off to junior staff</li>
+                                <li>Not interested in novelty for its own sake</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-block animate-on-scroll" data-delay="150">
+                        <h3>Why This Matters for Curtis Brown</h3>
+                        <p>
+                            Literary agencies operate on trust. Authors trust you with their careers.
+                            Publishers trust your judgment. That trust is built through relationships,
+                            not transactions.
+                        </p>
+                        <p>
+                            The same principle applies to digital work. A website is not a commodity to be
+                            purchased from the lowest bidder. It is an extension of your voice, your values,
+                            and your operational infrastructure. It deserves the same care you bring to
+                            representing an author.
+                        </p>
+                        <p>
+                            We offer that care. Not because we are larger or faster or cheaper, but because
+                            we are senior enough to understand what you need and small enough to deliver it
+                            with attention.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: WHO WE ARE -->
+        <section id="who-we-are" class="section">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Who We Are</h2>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            A partnership built on complementary expertise: creative strategy and editorial
+                            design balanced with engineering rigor and systems thinking.
+                        </p>
+                    </div>
+
+                    <!-- Edgar Zorrilla -->
+                    <div class="profile-block animate-on-scroll" data-delay="100">
+                        <div class="profile-header">
+                            <div class="profile-image-container">
+                                <!-- Placeholder for profile image -->
+                                <div class="profile-image-placeholder" data-asset="edgar-portrait.jpg">
+                                    <span class="initials">EZ</span>
+                                </div>
+                            </div>
+                            <div class="profile-intro">
+                                <h3 class="profile-name">Edgar Zorrilla</h3>
+                                <p class="profile-role">Creative Direction and Strategy</p>
+                            </div>
+                        </div>
+                        <div class="profile-body">
+                            <p>
+                                Over twenty years in design, strategy, and creative leadership.
+                                Edgar has worked at the intersection of brand identity, editorial design,
+                                and digital production for organizations where presentation is inseparable
+                                from reputation.
+                            </p>
+                            <p>
+                                His client work spans major brands including IBM, Mercedes, Jaguar, and
+                                Paramount, as well as agency partnerships with Wieden+Kennedy, Google,
+                                and Saks Fifth Avenue. This breadth of experience has cultivated a deep
+                                understanding of how design serves institutional goals, not just aesthetic ones.
+                            </p>
+                            <p>
+                                Edgar leads discovery, information architecture, visual design, and
+                                client collaboration. His approach emphasizes restraint over decoration,
+                                clarity over complexity, and design decisions that can be explained and
+                                defended rather than simply felt.
+                            </p>
+                            <div class="profile-philosophy">
+                                <blockquote>
+                                    Design is not decoration. It is the difference between being seen
+                                    and being remembered.
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Paul Denya -->
+                    <div class="profile-block animate-on-scroll" data-delay="200">
+                        <div class="profile-header">
+                            <div class="profile-image-container">
+                                <!-- Placeholder for profile image -->
+                                <div class="profile-image-placeholder" data-asset="paul-portrait.jpg">
+                                    <span class="initials">PD</span>
+                                </div>
+                            </div>
+                            <div class="profile-intro">
+                                <h3 class="profile-name">Paul Denya</h3>
+                                <p class="profile-role">Engineering and Systems</p>
+                            </div>
+                        </div>
+                        <div class="profile-body">
+                            <p>
+                                Software engineer with deep experience building secure, private, and
+                                purpose-built systems. Paul specializes in internal tools, workflow
+                                automation, and infrastructure designed for long-term maintainability.
+                            </p>
+                            <p>
+                                His work emphasizes boundaries: clear separation between public and private
+                                systems, careful handling of sensitive data, and architecture that does not
+                                create dependencies on proprietary platforms or vendor lock-in.
+                            </p>
+                            <p>
+                                Paul leads technical architecture, implementation, security review, and
+                                documentation. His approach prioritizes simplicity, durability, and the
+                                kind of engineering that remains understandable and maintainable years
+                                after initial delivery.
+                            </p>
+                            <div class="profile-philosophy">
+                                <blockquote>
+                                    The best systems are the ones you do not notice. They work, they stay
+                                    working, and they do not create new problems to solve.
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Together -->
+                    <div class="content-block animate-on-scroll" data-delay="250">
+                        <h3>Together</h3>
+                        <p>
+                            We function as a unified practice: design-led but technically rigorous,
+                            strategic but hands-on, experienced but still directly involved in the work.
+                        </p>
+                        <p>
+                            This is not a partnership of convenience. It is a deliberate structure that
+                            allows us to take on projects where trust, quality, and long-term relationships
+                            matter more than scale or speed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: OUR APPROACH -->
+        <section id="approach" class="section section-alternate">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Our Approach</h2>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            A deliberate process that respects institutional complexity while
+                            maintaining forward momentum. No phase is skipped. No shortcuts are taken.
+                        </p>
+                    </div>
+
+                    <div class="process-timeline">
+                        <div class="process-phase animate-on-scroll" data-delay="100">
+                            <div class="phase-marker">
+                                <span class="phase-number">01</span>
+                            </div>
+                            <div class="phase-content">
+                                <h3>Discovery</h3>
+                                <p>
+                                    Before designing anything, we listen. Structured conversations with
+                                    stakeholders across the organization: leadership, agents, support staff,
+                                    and anyone whose work intersects with the website.
+                                </p>
+                                <ul class="phase-details">
+                                    <li>Stakeholder interviews and priorities mapping</li>
+                                    <li>Content audit and information architecture review</li>
+                                    <li>Technical assessment of current infrastructure</li>
+                                    <li>Competitive and peer landscape analysis</li>
+                                    <li>User journey documentation for key audiences</li>
+                                </ul>
+                                <p class="phase-outcome">
+                                    <strong>Outcome:</strong> A shared understanding of what needs to change,
+                                    what should be preserved, and what success looks like.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="process-phase animate-on-scroll" data-delay="150">
+                            <div class="phase-marker">
+                                <span class="phase-number">02</span>
+                            </div>
+                            <div class="phase-content">
+                                <h3>Architecture</h3>
+                                <p>
+                                    The structure beneath the surface. How content is organized, how pages
+                                    relate to each other, how users find what they need, and how the system
+                                    will accommodate future growth.
+                                </p>
+                                <ul class="phase-details">
+                                    <li>Site map and navigation structure</li>
+                                    <li>Content models and editorial workflow</li>
+                                    <li>URL strategy and permalink design</li>
+                                    <li>Technical architecture decisions</li>
+                                    <li>Integration requirements and boundaries</li>
+                                </ul>
+                                <p class="phase-outcome">
+                                    <strong>Outcome:</strong> A documented architecture that serves as
+                                    the foundation for all design and development work.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="process-phase animate-on-scroll" data-delay="200">
+                            <div class="phase-marker">
+                                <span class="phase-number">03</span>
+                            </div>
+                            <div class="phase-content">
+                                <h3>Design</h3>
+                                <p>
+                                    Visual design rooted in the architecture. Not decoration applied after
+                                    the fact, but design that emerges from and reinforces the underlying
+                                    structure.
+                                </p>
+                                <ul class="phase-details">
+                                    <li>Design system and component library</li>
+                                    <li>Typography, color, and visual language</li>
+                                    <li>Key page templates and layouts</li>
+                                    <li>Responsive behavior across devices</li>
+                                    <li>Interactive prototypes for review</li>
+                                </ul>
+                                <p class="phase-outcome">
+                                    <strong>Outcome:</strong> A complete visual design that can be
+                                    reviewed, refined, and approved before development begins.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="process-phase animate-on-scroll" data-delay="250">
+                            <div class="phase-marker">
+                                <span class="phase-number">04</span>
+                            </div>
+                            <div class="phase-content">
+                                <h3>Implementation</h3>
+                                <p>
+                                    Building the site with the same care applied to design. Clean code,
+                                    semantic markup, performance optimization, and accessibility as
+                                    foundational requirements rather than afterthoughts.
+                                </p>
+                                <ul class="phase-details">
+                                    <li>Front-end development with modern standards</li>
+                                    <li>Content management integration</li>
+                                    <li>Performance optimization and testing</li>
+                                    <li>Accessibility audit and remediation</li>
+                                    <li>Cross-browser and device testing</li>
+                                </ul>
+                                <p class="phase-outcome">
+                                    <strong>Outcome:</strong> A production-ready website that
+                                    performs well and can be confidently launched.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="process-phase animate-on-scroll" data-delay="300">
+                            <div class="phase-marker">
+                                <span class="phase-number">05</span>
+                            </div>
+                            <div class="phase-content">
+                                <h3>Handoff</h3>
+                                <p>
+                                    Delivery is not the end of our responsibility. We ensure your team
+                                    can maintain, update, and extend what we have built without ongoing
+                                    dependency on us.
+                                </p>
+                                <ul class="phase-details">
+                                    <li>Comprehensive documentation</li>
+                                    <li>Training for content editors and administrators</li>
+                                    <li>Launch support and monitoring</li>
+                                    <li>Post-launch optimization period</li>
+                                    <li>Clear ownership transfer</li>
+                                </ul>
+                                <p class="phase-outcome">
+                                    <strong>Outcome:</strong> Full ownership and capability to operate
+                                    independently, with the option for ongoing support if desired.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: WHAT WE DELIVER -->
+        <section id="deliverables" class="section">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">What We Deliver</h2>
+                    <p class="section-subtitle">Web-First, Purpose-Built</p>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            The core deliverable is a public-facing website that represents Curtis Brown
+                            with the clarity and authority the institution deserves.
+                        </p>
+                    </div>
+
+                    <div class="deliverable-grid">
+                        <div class="deliverable-card animate-on-scroll" data-delay="100">
+                            <h3>Public-Facing Website</h3>
+                            <p>
+                                A complete redesign of CurtisBrown.com: responsive, performant, and
+                                built for long-term maintainability. Every page crafted to serve its
+                                specific audience while reinforcing the agency's editorial identity.
+                            </p>
+                            <ul class="deliverable-features">
+                                <li>Homepage and primary navigation</li>
+                                <li>Agent profiles and contact information</li>
+                                <li>Client and title showcases</li>
+                                <li>News, announcements, and press coverage</li>
+                                <li>About and history sections</li>
+                            </ul>
+                        </div>
+
+                        <div class="deliverable-card animate-on-scroll" data-delay="150">
+                            <h3>Editorial Structure</h3>
+                            <p>
+                                A content architecture that makes information findable, updatable,
+                                and structured for both human readers and search engines.
+                            </p>
+                            <ul class="deliverable-features">
+                                <li>Clear information hierarchy</li>
+                                <li>Consistent content templates</li>
+                                <li>Structured data for improved search visibility</li>
+                                <li>Editorial workflow for content updates</li>
+                                <li>Category and tagging systems</li>
+                            </ul>
+                        </div>
+
+                        <div class="deliverable-card animate-on-scroll" data-delay="200">
+                            <h3>Performance and Accessibility</h3>
+                            <p>
+                                Technical excellence as a baseline, not a premium feature. Fast load
+                                times, responsive design, and accessibility compliance as foundational
+                                requirements.
+                            </p>
+                            <ul class="deliverable-features">
+                                <li>Sub-three-second load times</li>
+                                <li>Mobile-first responsive design</li>
+                                <li>WCAG 2.1 AA accessibility compliance</li>
+                                <li>SEO fundamentals implemented</li>
+                                <li>Analytics and performance monitoring</li>
+                            </ul>
+                        </div>
+
+                        <div class="deliverable-card animate-on-scroll" data-delay="250">
+                            <h3>Design System</h3>
+                            <p>
+                                A documented visual language that ensures consistency and enables
+                                future development without losing design integrity.
+                            </p>
+                            <ul class="deliverable-features">
+                                <li>Typography scale and usage guidelines</li>
+                                <li>Color palette and application rules</li>
+                                <li>Component library with documentation</li>
+                                <li>Spacing and layout principles</li>
+                                <li>Pattern library for future extensions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: ADJACENT CAPABILITIES -->
+        <section id="capabilities" class="section section-alternate">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Adjacent Capabilities</h2>
+                    <p class="section-subtitle">Extensions That Support the Core</p>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            Beyond the public website, there are operational systems that naturally
+                            connect to and extend the core digital presence. These are available
+                            but not assumed. Each requires its own careful consideration.
+                        </p>
+                    </div>
+
+                    <div class="capability-list">
+                        <div class="capability-item animate-on-scroll" data-delay="100">
+                            <div class="capability-header">
+                                <h3>Submission Workflows</h3>
+                                <span class="capability-tag">Optional</span>
+                            </div>
+                            <p>
+                                Structured intake systems for manuscript submissions, query letters,
+                                and author inquiries. Designed to reduce administrative burden while
+                                ensuring nothing is lost and guidelines are followed.
+                            </p>
+                            <ul class="capability-features">
+                                <li>Genre and agent-specific routing</li>
+                                <li>Attachment handling with size and format validation</li>
+                                <li>Automated acknowledgment and status communication</li>
+                                <li>Integration with internal tracking systems</li>
+                            </ul>
+                        </div>
+
+                        <div class="capability-item animate-on-scroll" data-delay="150">
+                            <div class="capability-header">
+                                <h3>Internal Dashboards</h3>
+                                <span class="capability-tag">Optional</span>
+                            </div>
+                            <p>
+                                Private interfaces for staff to manage website content, view submission
+                                pipelines, and access operational data without requiring technical expertise.
+                            </p>
+                            <ul class="capability-features">
+                                <li>Content management for non-technical staff</li>
+                                <li>Submission queue and status tracking</li>
+                                <li>Basic reporting and analytics views</li>
+                                <li>User roles and permission management</li>
+                            </ul>
+                        </div>
+
+                        <div class="capability-item animate-on-scroll" data-delay="200">
+                            <div class="capability-header">
+                                <h3>Secure Document Handling</h3>
+                                <span class="capability-tag">Optional</span>
+                            </div>
+                            <p>
+                                When sensitive materials must be exchanged digitally, purpose-built
+                                systems that prioritize security and auditability over convenience.
+                            </p>
+                            <ul class="capability-features">
+                                <li>Encrypted file transfer</li>
+                                <li>Time-limited access links</li>
+                                <li>Download tracking and audit logs</li>
+                                <li>No third-party cloud storage dependencies</li>
+                            </ul>
+                        </div>
+
+                        <div class="capability-item animate-on-scroll" data-delay="250">
+                            <div class="capability-header">
+                                <h3>Private AI Classification</h3>
+                                <span class="capability-tag">Opt-In Only</span>
+                            </div>
+                            <p>
+                                For organizations processing high volumes of submissions, AI-assisted
+                                classification can help surface relevant materials faster. Available
+                                only with explicit consent and strict data boundaries.
+                            </p>
+                            <ul class="capability-features">
+                                <li>Genre and category classification</li>
+                                <li>Quality and completeness flagging</li>
+                                <li>Runs on-premises or private cloud only</li>
+                                <li>No data used for model training</li>
+                                <li>Human review remains authoritative</li>
+                            </ul>
+                            <p class="capability-caveat">
+                                We include this capability with significant caveats. AI should be an
+                                assistive tool for operational efficiency, never a replacement for
+                                editorial judgment. Implementation requires careful discussion of
+                                boundaries and expectations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 8: SECURITY, PRIVACY, AND TRUST -->
+        <section id="security" class="section">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Security, Privacy, and Trust</h2>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            A literary agency handles some of the most sensitive materials in publishing:
+                            unpublished manuscripts, contract negotiations, career-defining decisions.
+                            Digital systems that touch this work must be built with corresponding care.
+                        </p>
+                    </div>
+
+                    <div class="trust-principles">
+                        <div class="trust-principle animate-on-scroll" data-delay="100">
+                            <h3>Clear Data Boundaries</h3>
+                            <p>
+                                We establish explicit boundaries around what data exists, where it lives,
+                                and who can access it. Public website content is separate from submission
+                                systems. Submission systems are separate from internal operations.
+                                Nothing crosses boundaries without explicit design and approval.
+                            </p>
+                        </div>
+
+                        <div class="trust-principle animate-on-scroll" data-delay="150">
+                            <h3>Manuscript Protection</h3>
+                            <p>
+                                Unpublished work is irreplaceable intellectual property. Any system that
+                                handles manuscripts includes encryption at rest, encrypted transmission,
+                                access logging, and retention policies that ensure materials are not
+                                stored longer than necessary.
+                            </p>
+                        </div>
+
+                        <div class="trust-principle animate-on-scroll" data-delay="200">
+                            <h3>Ownership and Portability</h3>
+                            <p>
+                                You own your data, your content, and your systems. We build on open
+                                standards and avoid proprietary lock-in. If you choose to work with
+                                different partners in the future, everything we build transfers cleanly.
+                            </p>
+                        </div>
+
+                        <div class="trust-principle animate-on-scroll" data-delay="250">
+                            <h3>Long-Term Stability</h3>
+                            <p>
+                                We select technologies for durability, not novelty. Frameworks and
+                                platforms with established track records, active maintenance, and
+                                clear migration paths. Your website should work reliably for years,
+                                not require rebuilding when trends change.
+                            </p>
+                        </div>
+
+                        <div class="trust-principle animate-on-scroll" data-delay="300">
+                            <h3>No Unnecessary Dependencies</h3>
+                            <p>
+                                Every external service and third-party integration is evaluated for
+                                necessity and risk. We prefer fewer dependencies with clear purposes
+                                over feature-rich platforms that create exposure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="content-block animate-on-scroll" data-delay="350">
+                        <h3>Our Commitment</h3>
+                        <p>
+                            We are not a security firm and do not position ourselves as one. But we
+                            understand that trust is foundational to your business, and we build systems
+                            that respect that trust. Where specialized security expertise is required,
+                            we recommend and coordinate with qualified professionals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 9: ENGAGEMENT MODELS -->
+        <section id="engagement" class="section section-alternate">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Engagement Models</h2>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            We offer three engagement structures, each designed for different levels
+                            of scope and organizational readiness. Pricing is determined through
+                            conversation based on specific requirements.
+                        </p>
+                    </div>
+
+                    <div class="engagement-tiers">
+                        <div class="engagement-tier animate-on-scroll" data-delay="100">
+                            <div class="tier-header">
+                                <h3>Foundation</h3>
+                                <p class="tier-tagline">Public Website Redesign</p>
+                            </div>
+                            <div class="tier-body">
+                                <p>
+                                    A complete redesign of CurtisBrown.com with all phases of our
+                                    process: discovery, architecture, design, implementation, and handoff.
+                                </p>
+                                <h4>Includes</h4>
+                                <ul class="tier-features">
+                                    <li>Stakeholder discovery and research</li>
+                                    <li>Information architecture and site map</li>
+                                    <li>Complete visual design and design system</li>
+                                    <li>Responsive front-end development</li>
+                                    <li>Content management integration</li>
+                                    <li>Performance and accessibility optimization</li>
+                                    <li>Documentation and training</li>
+                                    <li>30-day post-launch support</li>
+                                </ul>
+                                <p class="tier-fit">
+                                    <strong>Best for:</strong> Organizations ready for a focused
+                                    website project with clear scope and timeline.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="engagement-tier animate-on-scroll" data-delay="200">
+                            <div class="tier-header">
+                                <h3>Extended</h3>
+                                <p class="tier-tagline">Website Plus Operational Systems</p>
+                            </div>
+                            <div class="tier-body">
+                                <p>
+                                    Everything in Foundation, plus one or more of the adjacent
+                                    capabilities that support operational needs.
+                                </p>
+                                <h4>Adds</h4>
+                                <ul class="tier-features">
+                                    <li>Submission workflow system</li>
+                                    <li>Internal content dashboard</li>
+                                    <li>Secure document exchange</li>
+                                    <li>Integration with existing tools</li>
+                                    <li>Extended discovery for operational requirements</li>
+                                    <li>Additional training and documentation</li>
+                                    <li>90-day post-launch support</li>
+                                </ul>
+                                <p class="tier-fit">
+                                    <strong>Best for:</strong> Organizations looking to address
+                                    both public presence and internal operational friction.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="engagement-tier animate-on-scroll" data-delay="300">
+                            <div class="tier-header">
+                                <h3>Partnership</h3>
+                                <p class="tier-tagline">Ongoing Strategic Relationship</p>
+                            </div>
+                            <div class="tier-body">
+                                <p>
+                                    A retained relationship for organizations that want continuous
+                                    access to senior design and engineering expertise beyond a
+                                    single project.
+                                </p>
+                                <h4>Includes</h4>
+                                <ul class="tier-features">
+                                    <li>Reserved monthly capacity</li>
+                                    <li>Priority response and scheduling</li>
+                                    <li>Ongoing iteration and enhancement</li>
+                                    <li>Strategic advisory on digital initiatives</li>
+                                    <li>Proactive maintenance and monitoring</li>
+                                    <li>Quarterly reviews and roadmap planning</li>
+                                </ul>
+                                <p class="tier-fit">
+                                    <strong>Best for:</strong> Organizations that view digital
+                                    as an ongoing capability rather than a one-time project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-block animate-on-scroll" data-delay="350">
+                        <p>
+                            These structures are starting points for conversation. Every organization
+                            has different needs, constraints, and timelines. We are happy to discuss
+                            what makes sense for Curtis Brown specifically.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 10: NEXT STEPS -->
+        <section id="next-steps" class="section section-final">
+            <div class="section-content">
+                <header class="section-header animate-on-scroll">
+                    <h2 class="section-title">Next Steps</h2>
+                </header>
+                <div class="section-body">
+                    <div class="content-block animate-on-scroll">
+                        <p class="lead">
+                            We would welcome the opportunity to discuss this proposal in more detail.
+                            Not to sell, but to listen, to understand your specific situation, and to
+                            determine whether this is the right fit for both sides.
+                        </p>
+                    </div>
+
+                    <div class="next-steps-content animate-on-scroll" data-delay="100">
+                        <h3>What a First Conversation Might Include</h3>
+                        <ul class="refined-list">
+                            <li>Your priorities and concerns for a redesign</li>
+                            <li>Questions about our approach or experience</li>
+                            <li>Discussion of timeline and organizational readiness</li>
+                            <li>Clarification of scope and boundaries</li>
+                            <li>Honest assessment of fit</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-block animate-on-scroll" data-delay="150">
+                        <p>
+                            There is no obligation and no pressure. We take on a limited number of
+                            projects precisely so we can give each one the attention it deserves.
+                            If the fit is not right, we will say so directly.
+                        </p>
+                    </div>
+
+                    <div class="contact-block animate-on-scroll" data-delay="200">
+                        <div class="contact-card">
+                            <h3>Edgar Zorrilla</h3>
+                            <p class="contact-role">Creative Direction and Strategy</p>
+                            <p class="contact-email">
+                                <a href="mailto:edgar@zorrilla.life">edgar@zorrilla.life</a>
+                            </p>
+                            <p class="contact-phone">646.789.4328</p>
+                        </div>
+                    </div>
+
+                    <div class="closing-note animate-on-scroll" data-delay="250">
+                        <p>
+                            Thank you for considering this proposal. We understand the weight of
+                            decisions that affect how an institution presents itself to the world.
+                            Whatever you decide, we appreciate the opportunity to share our thinking.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                Prepared for Curtis Brown Ltd<br>
+                <span class="footer-date">January 2026</span>
+            </p>
+            <p class="footer-attribution">
+                Edgar Zorrilla and Paul Denya
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
