@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wimzyware - Ship Site Changes with AI, Staging, and Control</title>
+  <meta name="description" content="Safe AI workflow for website and app updates. Staging, approvals, specialized agents, and optional human review.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Wimzyware</a>
+      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#agents">Agents</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#safety">Safety</a></li>
+        <li><a href="#waitlist" class="btn btn--primary btn--sm">Join the Waitlist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content fade-in">
+          <h1 class="hero__title">Ship site changes with AI, staging, and control</h1>
+          <p class="hero__subtitle">
+            A safe AI workflow for website and app updates. Specialized agents propose changes,
+            you review them in staging, approve what looks right, and deploy with confidence.
+            Optional human review at every step.
+          </p>
+          <div class="hero__actions">
+            <a href="#waitlist" class="btn btn--primary btn--lg">Join the Waitlist</a>
+            <a href="#how-it-works" class="btn btn--secondary btn--lg">See How It Works</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <h2 class="section__title fade-in">How It Works</h2>
+        <p class="section__subtitle fade-in">Four simple steps from idea to production.</p>
+        <div class="steps-grid">
+          <div class="step-card fade-in">
+            <span class="step-card__icon" aria-hidden="true">&#x1F4AC;</span>
+            <span class="step-card__number">1</span>
+            <h3 class="step-card__title">Request Changes</h3>
+            <p class="step-card__desc">Describe what you need in plain language. Update copy, tweak styles, add a feature, or fix a bug.</p>
+          </div>
+          <div class="step-card fade-in">
+            <span class="step-card__icon" aria-hidden="true">&#x1F916;</span>
+            <span class="step-card__number">2</span>
+            <h3 class="step-card__title">AI Proposes or Implements</h3>
+            <p class="step-card__desc">Specialized agents craft the changes. Each agent focuses on what it does best, from copy to code.</p>
+          </div>
+          <div class="step-card fade-in">
+            <span class="step-card__icon" aria-hidden="true">&#x1F50D;</span>
+            <span class="step-card__number">3</span>
+            <h3 class="step-card__title">Review in Staging</h3>
+            <p class="step-card__desc">Every change lands in a staging environment first. Preview exactly what will go live before it does.</p>
+          </div>
+          <div class="step-card fade-in">
+            <span class="step-card__icon" aria-hidden="true">&#x1F680;</span>
+            <span class="step-card__number">4</span>
+            <h3 class="step-card__title">Approve and Deploy</h3>
+            <p class="step-card__desc">One click to push approved changes to production. Instant rollback if anything goes wrong.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agent Workspace -->
+    <section id="agents" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title fade-in">Agent Workspace</h2>
+        <p class="section__subtitle fade-in">Eight specialist agents collaborate on your project, each bringing deep expertise to their domain.</p>
+        <div class="agents-grid">
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x1F4E3;</span>
+            <h3 class="agent-card__name">Marketing</h3>
+            <p class="agent-card__desc">Crafts messaging, CTAs, and conversion-focused page structures aligned with your brand strategy.</p>
+          </div>
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x1F3A8;</span>
+            <h3 class="agent-card__name">Design</h3>
+            <p class="agent-card__desc">Handles layout, spacing, color, and visual hierarchy to keep your site looking polished.</p>
+          </div>
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x270D;&#xFE0F;</span>
+            <h3 class="agent-card__name">Copywriting</h3>
+            <p class="agent-card__desc">Writes and refines headlines, body text, microcopy, and calls to action with a consistent voice.</p>
+          </div>
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x1F4BB;</span>
+            <h3 class="agent-card__name">Frontend Dev</h3>
+            <p class="agent-card__desc">Implements UI changes in HTML, CSS, and JavaScript with clean, maintainable code.</p>
+          </div>
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x2699;&#xFE0F;</span>
+            <h3 class="agent-card__name">Backend Dev</h3>
+            <p class="agent-card__desc">Manages server logic, APIs, databases, and infrastructure changes with safety-first practices.</p>
+          </div>
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x1F50E;</span>
+            <h3 class="agent-card__name">SEO</h3>
+            <p class="agent-card__desc">Optimizes meta tags, structured data, page speed, and content for search engine visibility.</p>
+          </div>
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x267F;</span>
+            <h3 class="agent-card__name">Accessibility</h3>
+            <p class="agent-card__desc">Ensures WCAG compliance, screen reader support, keyboard navigation, and inclusive design.</p>
+          </div>
+          <div class="agent-card fade-in">
+            <span class="agent-card__icon" aria-hidden="true">&#x2705;</span>
+            <h3 class="agent-card__name">QA</h3>
+            <p class="agent-card__desc">Tests changes across browsers and devices, catches regressions, and validates expected behavior.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Preview -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2 class="section__title fade-in">Pricing Preview</h2>
+        <p class="section__subtitle fade-in">Simple, transparent plans. Pick what fits your project.</p>
+        <div class="pricing-columns">
+
+          <!-- Static Website Plans -->
+          <div class="pricing-group fade-in">
+            <h3 class="pricing-group__title">Static Website Plans</h3>
+            <p class="pricing-group__note">Marketing sites, landing pages, portfolios</p>
+            <div class="pricing-tiers">
+              <div class="pricing-card">
+                <h4 class="pricing-card__name">Starter (AI Only)</h4>
+                <div class="pricing-card__price">$29<span>/mo</span></div>
+                <p class="pricing-card__desc">Fully automated AI changes. Best for low-risk static content updates.</p>
+              </div>
+              <div class="pricing-card">
+                <h4 class="pricing-card__name">Cowboy</h4>
+                <div class="pricing-card__price">$79<span>/mo</span></div>
+                <p class="pricing-card__desc">AI changes with staging previews. You review before anything goes live.</p>
+              </div>
+              <div class="pricing-card pricing-card--featured">
+                <h4 class="pricing-card__name">Pro Review</h4>
+                <div class="pricing-card__price">$149<span>/mo</span></div>
+                <p class="pricing-card__desc">Full workflow with human expert review, staging, and approval gates.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend App Plans -->
+          <div class="pricing-group fade-in">
+            <h3 class="pricing-group__title">Backend App Plans</h3>
+            <p class="pricing-group__note">Web apps, APIs, databases &mdash; higher complexity &amp; risk</p>
+            <div class="pricing-tiers">
+              <div class="pricing-card">
+                <h4 class="pricing-card__name">Starter (AI Only)</h4>
+                <div class="pricing-card__price">$99<span>/mo</span></div>
+                <p class="pricing-card__desc">Automated AI changes for backend code. Ideal for non-critical services.</p>
+              </div>
+              <div class="pricing-card">
+                <h4 class="pricing-card__name">Cowboy</h4>
+                <div class="pricing-card__price">$199<span>/mo</span></div>
+                <p class="pricing-card__desc">AI changes with staging and preview. Review server-side changes safely.</p>
+              </div>
+              <div class="pricing-card pricing-card--featured">
+                <h4 class="pricing-card__name">Pro Review</h4>
+                <div class="pricing-card__price">$349<span>/mo</span></div>
+                <p class="pricing-card__desc">Full human review pipeline for backend changes. Maximum safety and control.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety & Control -->
+    <section id="safety" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title fade-in">Safety &amp; Control</h2>
+        <p class="section__subtitle fade-in">Every change is sandboxed, reviewed, and reversible. You stay in control.</p>
+        <div class="safety-grid">
+          <div class="safety-item fade-in">
+            <span class="safety-item__icon" aria-hidden="true">&#x1F6E1;&#xFE0F;</span>
+            <h3 class="safety-item__title">Staging Previews</h3>
+            <p class="safety-item__desc">Every proposed change is deployed to a staging environment. See exactly what will go live before it does.</p>
+          </div>
+          <div class="safety-item fade-in">
+            <span class="safety-item__icon" aria-hidden="true">&#x23EA;</span>
+            <h3 class="safety-item__title">Instant Rollback</h3>
+            <p class="safety-item__desc">Something wrong? Roll back to any previous version in one click. Your production site is always recoverable.</p>
+          </div>
+          <div class="safety-item fade-in">
+            <span class="safety-item__icon" aria-hidden="true">&#x1F512;</span>
+            <h3 class="safety-item__title">Approval Gates</h3>
+            <p class="safety-item__desc">Nothing reaches production without explicit approval. Set up multi-step review chains for critical changes.</p>
+          </div>
+          <div class="safety-item fade-in">
+            <span class="safety-item__icon" aria-hidden="true">&#x1F441;&#xFE0F;</span>
+            <h3 class="safety-item__title">Optional Human Review</h3>
+            <p class="safety-item__desc">Add expert human reviewers to your workflow. Get professional eyes on changes that matter most.</p>
+          </div>
+          <div class="safety-item fade-in">
+            <span class="safety-item__icon" aria-hidden="true">&#x1F4CB;</span>
+            <h3 class="safety-item__title">Full Audit Trail</h3>
+            <p class="safety-item__desc">Every change, approval, and deployment is logged. Complete visibility into who changed what and when.</p>
+          </div>
+          <div class="safety-item fade-in">
+            <span class="safety-item__icon" aria-hidden="true">&#x1F6A7;</span>
+            <h3 class="safety-item__title">Risk-Aware Controls</h3>
+            <p class="safety-item__desc">Backend changes get stricter gates than static content. Controls scale with the risk level of each change.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Wimzyware -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title fade-in">Why Wimzyware</h2>
+        <p class="section__subtitle fade-in">Built different from the ground up.</p>
+        <div class="why-grid">
+          <div class="why-card fade-in">
+            <span class="why-card__icon" aria-hidden="true">&#x1F3D6;&#xFE0F;</span>
+            <h3 class="why-card__title">Safe Change Sandbox</h3>
+            <p class="why-card__desc">
+              Every change lives in an isolated sandbox before it touches production. Preview, test,
+              and validate in a real environment without any risk to your live site.
+            </p>
+          </div>
+          <div class="why-card fade-in">
+            <span class="why-card__icon" aria-hidden="true">&#x1F9E0;</span>
+            <h3 class="why-card__title">Multi-Agent Workspace</h3>
+            <p class="why-card__desc">
+              Eight specialized agents bring focused expertise to every change. They collaborate like a
+              real team &mdash; marketing, design, dev, SEO, accessibility, and QA working together.
+            </p>
+          </div>
+          <div class="why-card fade-in">
+            <span class="why-card__icon" aria-hidden="true">&#x1F3AF;</span>
+            <h3 class="why-card__title">Project-Type Aware Controls</h3>
+            <p class="why-card__desc">
+              Static site update? Lightweight review. Backend API change? Strict approval gates.
+              Controls automatically adapt to the risk profile of your project type.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Waitlist CTA -->
+    <section id="waitlist" class="section section--cta">
+      <div class="container">
+        <div class="cta-block fade-in">
+          <h2 class="cta-block__title">Get early access</h2>
+          <p class="cta-block__desc">Join the waitlist and be the first to ship changes the safe way.</p>
+          <form class="waitlist-form" id="waitlist-form">
+            <input
+              type="email"
+              class="waitlist-form__input"
+              placeholder="you@company.com"
+              aria-label="Email address"
+              required
+            >
+            <button type="submit" class="btn btn--primary btn--lg">Join the Waitlist</button>
+          </form>
+          <p class="waitlist-form__success" id="waitlist-success" hidden>
+            You're on the list! We'll be in touch soon.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">Wimzyware</span>
+        <p class="footer__tagline">Ship site changes with AI, staging, and control.</p>
+      </div>
+      <div class="footer__links">
+        <h4 class="footer__heading">Follow Us</h4>
+        <ul>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+          <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" aria-label="GitHub">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="footer__newsletter">
+        <h4 class="footer__heading">Stay Updated</h4>
+        <form class="footer-email-form" id="footer-email-form">
+          <input
+            type="email"
+            class="footer-email-form__input"
+            placeholder="you@company.com"
+            aria-label="Email address"
+            required
+          >
+          <button type="submit" class="btn btn--primary btn--sm">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Wimzyware. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

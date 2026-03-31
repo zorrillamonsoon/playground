@@ -1,0 +1,164 @@
+.change-request-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.crp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crp-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.crp-count {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-weight: 500;
+  background: var(--color-bg);
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+/* Empty state */
+.crp-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.crp-empty-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.crp-empty-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 6px;
+}
+
+.crp-empty-desc {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+/* Card list */
+.crp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.crp-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.crp-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary-light);
+}
+
+.crp-card-selected {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.15);
+}
+
+.crp-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.crp-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+/* Status badges */
+.crp-status-badge {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.status-draft {
+  background: #F3F4F6;
+  color: #6B7280;
+}
+
+.status-in-review {
+  background: #FEF3C7;
+  color: #D97706;
+}
+
+.status-staging {
+  background: #DBEAFE;
+  color: #2563EB;
+}
+
+.status-approved {
+  background: #D1FAE5;
+  color: #059669;
+}
+
+.status-deployed {
+  background: #E0E7FF;
+  color: #4F46E5;
+}
+
+/* Card meta */
+.crp-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-bottom: 8px;
+}
+
+.crp-card-separator {
+  color: var(--color-border);
+}
+
+.crp-card-confidence strong {
+  color: var(--color-text);
+}
+
+.crp-card-bottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 22px;
+}
+
+.crp-review-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: #D97706;
+  background: #FEF3C7;
+  padding: 3px 10px;
+  border-radius: 20px;
+}

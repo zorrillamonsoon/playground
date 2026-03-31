@@ -1,0 +1,70 @@
+.agent-list {
+  padding: 16px 0;
+  flex: 1;
+}
+
+.agent-list-header {
+  padding: 0 20px 10px;
+}
+
+.agent-list-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.agent-items {
+  list-style: none;
+}
+
+.agent-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 20px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.agent-item:hover:not(.agent-item-disabled) {
+  background: var(--color-sidebar-hover);
+}
+
+.agent-item-selected {
+  background: var(--color-sidebar-hover);
+  border-left: 3px solid var(--color-accent);
+  padding-left: 17px;
+}
+
+.agent-item-disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.agent-item-icon {
+  font-size: 18px;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.agent-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.agent-item-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.agent-item-unavailable {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 500;
+}

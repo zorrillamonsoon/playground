@@ -1,0 +1,80 @@
+.project-selector {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project-selector-header {
+  padding: 0 20px 10px;
+}
+
+.project-selector-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.project-list {
+  list-style: none;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.project-item:hover {
+  background: var(--color-sidebar-hover);
+}
+
+.project-item-selected {
+  background: var(--color-sidebar-hover);
+  border-left: 3px solid var(--color-primary-light);
+  padding-left: 17px;
+}
+
+.project-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.project-item-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-item-domain {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.project-type-badge {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.ptb-static {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93C5FD;
+}
+
+.ptb-backend {
+  background: rgba(239, 68, 68, 0.2);
+  color: #FCA5A5;
+}
